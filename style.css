@@ -1,0 +1,56 @@
+body {
+    font-family: 'Orbitron', serif;
+    background: #f3e4f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background: #6f2dab;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+  
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.feature-box {
+    background: #fff;
+    padding: 1rem 1.5 rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.contact-us {
+    margin-bottom: 25px;
+}
+
+button {
+    background: #6f2dab;
+    font-family: 'Orbitron', serif;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.5rem;
+}
