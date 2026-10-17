@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', serif;
+    font-family: 'Tajawal', serif;
     background: #cbf2bd;
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@ nav a {
 
 button {
     background: #ff4d4d;
-    font-family: 'Inter', serif;
+    font-family: 'Tajawal', serif;
     color: white;
     border: none;
     cursor: pointer;
