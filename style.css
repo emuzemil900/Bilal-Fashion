@@ -1,5 +1,5 @@
 body {
-    font-family: 'Orbitron', serif;
+    font-family: 'Cairo', serif;
     background: #cbf2bd;
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@ nav a {
 
 button {
     background: #f73b3b;
-    font-family: 'Orbitron', serif;
+    font-family: 'Cairo', serif;
     color: white;
     border: none;
     cursor: pointer;
