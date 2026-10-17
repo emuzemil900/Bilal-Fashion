@@ -1,5 +1,5 @@
 body {
-    font-family: 'Cairo', serif;
+    font-family: 'Amiri', serif;
     background: #cbf2bd;
     margin: 0;
     padding: 0;
@@ -46,8 +46,8 @@ nav a {
 }
 
 button {
-    background: #ff8c8c;
-    font-family: 'Cairo', serif;
+    background: #e85454;
+    font-family: 'Amiri', serif;
     color: white;
     border: none;
     cursor: pointer;
