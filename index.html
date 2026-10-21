@@ -7,11 +7,12 @@
     <title>Bilal Fashion</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+        <!-- Don't link the font here. If you do, make sure it's above your stylesheet link so your CSS can reference it correctly -->
 </head>
 
 <body>
 
-    <header> 
+    <header>
         <h1>Bilal Fashion</h1>
         <nav>
             <a href="index.html">Home</a>
@@ -33,7 +34,7 @@
     <section>
         <div class="grid">
         <div class="feature-box">
-            <h3>Headwear</h4>
+            <h3>Headwear</h4> <!-- These tags don't match up -->
             <p>Search for hijabs, kufis, and topis.</p>
         </div>
         <div class="feature-box">
@@ -46,6 +47,7 @@
         </div>
         </div>
     </section>
+    <!-- According to my linter, the tags above are not lined up correctly. Make sure you fix this so your website behaves as expected -->
 
     <section class="about-us">
         <h3>About Us</h3>
@@ -53,15 +55,18 @@
     </section>
 
     <section class="about-us">
+        <!-- This should be wrapped in a form tag -->
         <h3>Contact Us</h3>
         <div class="contact-us">
             <input placeholder="Your Name">
+                <!-- Make sure you specify what type of input this is -->
         </div>
         <div class="contact-us">
             <input placeholder="Your Email">
         </div>
         <div class="contact-us">
             <input placeholder="Your Message">
+                <!-- This should be a textarea, not an input. Inputs are for smaller text fields, like names and emails, and textareas are for more substantial pieces of text. -->
         </div>
         <div class="contact-us">
             <button>Send Message</button>
@@ -69,6 +74,9 @@
     </section>
 
 </main>
+<!-- Same as above. Make sure you keep coding in a proper editor like VS Code or Zed from now on to avoid these tag mismatches -->
+
+<!-- I recommend downloading the Biome extension for VS Code or Zed since it will give you tips on how to make this website comply with accessibility guidelines. -->
 
 </body>
 

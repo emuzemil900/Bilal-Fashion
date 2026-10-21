@@ -1,10 +1,21 @@
+/* The font you want to use should be imported at the very top of this file.
+There should be instructions on https://fonts.google.com on how to do this. */
 body {
-    font-family: 'Amiri', serif;
+    font-family: "Amiri", serif;
+    /* Don't use an arabic font for an English website. Also, you should choose a
+    heading font and a body font from https://fonts.google.com */
     background: #cbf2bd;
     margin: 0;
     padding: 0;
     color: #333;
+    /* Make sure you follow Web Color Accessibility Guidelines (WCAG) when choosing
+    background and text colors. You can use this website to make sure the colors
+    are compliant: https://webaim.org/resources/contrastchecker/ */
 }
+
+/* Knowing the basics of vanilla CSS is good. However, if you want to prepare for
+a career, you should experiment with libraries such as SCSS/Sass and Tailwind. I
+recommend Tailwind since you won't need a separate CSS file */
 
 header {
     width: 100%;
@@ -16,7 +27,7 @@ header {
     align-items: baseline;
     justify-content: space-between;
 }
-  
+
 nav a {
     padding: 10px;
     text-decoration: none;
@@ -24,20 +35,22 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #f0e68c;
+    background-color: #f0e68c;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
+    /* Read the PDF I sent you and check out the section about space. You should utilize
+    padding to make things easier to read. */
 }
 
 .feature-box {
     background: #fff;
     padding: 1rem 1.5 rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -51,10 +64,13 @@ nav a:hover {
 
 button {
     background: #e85454;
-    font-family: 'Amiri', serif;
+    font-family: "Amiri", serif;
     color: white;
     border: none;
     cursor: pointer;
     padding: 0.25rem 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+/* Make sure this website is legible on mobile! It's good to design for mobile first and
+then expand horizontally for computers. Let me know if you need help with this, but read about CSS media queries. */
